@@ -34,10 +34,24 @@ $(function () {
     //////////ONLY CHANGE BELOW THIS POINT///////////
     /////////////////////////////////////////////////
 
-    // TODO 1
-    // Create platforms
-    // You must decide the x position, y position, width, and height of the platforms
-    // example usage: createPlatform(x,y,width,height)
+    function createPlatform( x, y, width, height) {
+      platforms.push({ x, y, width, height });
+    }
+createPlatform(415, 675, 100, 75)
+createPlatform(500, 625, 100, 120)
+createPlatform(620, 550, 150, 45)
+createPlatform(790, 625, 100, 20)
+createPlatform(790, 420, 100, 20)
+createPlatform(850, 320, 100, 20)
+createPlatform(790, 220, 100, 20)
+createPlatform(1000, 320, 100, 20)
+createPlatform(1300, 420, 200, 20)
+createCollectable("steve", 800, 120)
+createCollectable("database", 630, 625)
+createCollectable("grace", 1350, 370)
+createCannon("top", 1200, 1000)
+createCannon("left", 220, 2000)
+createCannon("top", 480, 700)
 
 
 
