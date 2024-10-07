@@ -51,7 +51,7 @@ createCollectable("database", 630, 625)
 createCollectable("grace", 1350, 370)
 createCannon("top", 1200, 1000)
 createCannon("left", 220, 2000)
-createCannon("top", 480, 700)
+createCannon("top", 480, 800)
 
     
     /////////////////////////////////////////////////
