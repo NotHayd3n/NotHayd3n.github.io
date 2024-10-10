@@ -34,7 +34,7 @@ $(function () {
     //////////ONLY CHANGE BELOW THIS POINT///////////
     /////////////////////////////////////////////////
 
-    function createPlatform( x, y, width, height) {
+    function createPlatform(x, y, width, height) {
       platforms.push({ x, y, width, height });
     }
 createPlatform(415, 675, 100, 75)
